@@ -15,7 +15,9 @@
   "type": "commonjs",
   "main": "server.ts",
   "scripts": {
-    "test": "bun run --watch server.ts"
+    "dev": "bun run --watch server.ts",
+    "start": "bun run server.ts",
+    "typecheck": "bun typecheck"
   },
   "private": true,
   "devDependencies": {
